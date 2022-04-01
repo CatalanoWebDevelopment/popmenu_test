@@ -1,7 +1,16 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  price: 9.99
+  price: 5.99
+  menu_id: one
+  item_id: one
 
 two:
   price: 9.99
+  menu_id: one
+  item_id: two
+
+three:
+  price: 13.99
+  menu_id: two
+  item_id: two

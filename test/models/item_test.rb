@@ -1,7 +1,8 @@
-require "test_helper"
+require 'test_helper'
 
 class ItemTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test 'Invalid Without Name' do
+    item = Item.new
+    assert_not item.valid?
+  end
 end
