@@ -7,7 +7,9 @@
 one:
   name: Lunch
   restaurant_id: one
+  items: [one, two]
 
 two:
   name: Dinner
   restaurant_id: two
+  items: [two]

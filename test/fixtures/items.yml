@@ -2,6 +2,8 @@
 
 one:
   name: HotDog
+  menus: [one]
 
 two:
   name: Burger
+  menus: [one, two]

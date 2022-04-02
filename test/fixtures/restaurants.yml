@@ -2,6 +2,8 @@
 
 one:
   name: Portillos
+  menus: [one]
 
 two:
   name: Outback
+  menus: [two]
