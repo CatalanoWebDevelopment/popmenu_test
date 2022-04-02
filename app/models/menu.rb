@@ -1,7 +1,7 @@
 class Menu < ApplicationRecord
+  belongs_to :restaurant
   has_many :links
   has_many :items, through: :links
-  belongs_to :restaurant
 
   validates :name, presence: true
 end

@@ -3,9 +3,7 @@
 one:
   name: Lunch
   restaurant: one
-  items: [one]
 
 two:
   name: Dinner
   restaurant: two
-  items: [one, two]
